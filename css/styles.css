@@ -202,7 +202,9 @@ main {
 
 @media screen and (max-width: 435px) {
     main {
-        padding: 30px 50px;
+        padding: 0 50px;
+
+        margin-top: -6rem;
     }
 
     .content .text .countdown_container h2 {
@@ -215,12 +217,38 @@ main {
     }
 
     .footer-text {
-        margin-top: 0.2rem
+        margin-top: 1rem
     }
 }
 
+@media screen and (max-width: 411px) {
 
-@media screen and (max-width: 320px) {
+
+    .content .text .countdown_container h2 {
+        font-size: 2rem;
+    }
+
+    .footer {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .footer-text {
+        margin-top: 1rem
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        margin-top: -4.5rem;
+    }
+} 
+
+@media screen and (max-width: 360px) {
+    main {
+        margin-top: -6rem;
+    }
+
     .content .text h1 {
         font-size: 1.5rem;
         margin-top: 2rem;
@@ -235,3 +263,9 @@ main {
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-width: 320px) {
+    main {
+        margin-top: -5rem;
+    }
+} 
